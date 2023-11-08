@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website_2</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            background-color: aqua;
+            text-align: center;
+            padding: 20px;
+            position: sticky;
+            top: 0;
+        }
+        section{
+            display: flex;
+
+        }
+        #imp{
+            display: flex;
+            margin-top: 20px;
+        }
+        #image{
+            display:flex
+        }
+        #image div{
+            margin-left: 10px;
+            flex: 20%;
+            padding-top: 190px;
+        }
+        article{
+           width: 70%;
+           height: 500px;
+           background-color: greenyellow;
+            text-align: center;
+            margin-left: 20px;
+        }
+        aside{
+            width: 30%;
+            height: 500;
+            background-color: gray;
+            text-align: center;
+        }
+        aside h1 {
+            padding-top: 200px;
+        }
+        footer{
+            background-color: aqua;
+            text-align: center;
+            padding: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #abhi{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        @media (max-width:700px){
+            .section{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="abhi">
+    <header>
+        <h1>BUGATTI</h1>
+    </header>
+    <section id="imp">
+     <aside>
+        <h1>BUGATTI</h1>
+        <p style="color: black;">Automobiles Ettore Bugatti was a German then French manufacturer of high-performance automobiles. The company was founded in 1909 in the then-German city of Molsheim, Alsace, by the Italian-born industrial designer Ettore Bugatti. The cars were known for their design beauty and for their many race victories.</p>
+     </aside>
+    
+      <article id="image">
+          <div>
+            <img src="assets/images/Untitled.jpg" alt="" width="170px" height="95%">
+          </div>
+         <div>
+            <img src="assets/images/bugatiiUntitled.jpg" alt="" width="170px" height="95%">
+         </div>
+         <div>
+            <img src="assets/images/bugatti2Untitled.jpg" alt="" width="170px" height="95%">
+         </div>
+        </article>
+    </section>    
+    <footer>
+        <h3>ending</h3>
+    </footer>
+ </div>
+</body>
+</html>
